@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import org.slf4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -30,7 +31,9 @@ public class WebDriverBuilderNGTest {
 	@BeforeMethod
 	public void setup() {
 		//driver = new ChromeDriver();
-		driver = RemoteWebDriver.builder().oneOf(new ChromeOptions()).build();
+		//driver = RemoteWebDriver.builder().oneOf(new ChromeOptions()).build();
+		driver = RemoteWebDriver.builder().oneOf(new SafariOptions())
+				.addAlternative(new ChromeOptions()).build();
 		
 	}
 	
