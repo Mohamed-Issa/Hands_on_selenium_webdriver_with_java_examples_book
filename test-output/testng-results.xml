@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-29T10:15:36 EET" name="Default suite" finished-at="2026-03-29T10:15:39 EET" duration-ms="3322">
+  <suite started-at="2026-03-29T10:47:09 EET" name="Default suite" finished-at="2026-03-29T10:47:13 EET" duration-ms="4058">
     <groups>
     </groups>
-    <test started-at="2026-03-29T10:15:36 EET" name="Default test" finished-at="2026-03-29T10:15:39 EET" duration-ms="3322">
-      <class name="chapter_three.WebDriverManagerBuilderNGTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.WebDriverManagerBuilderNGTest@71d44a3]" started-at="2026-03-29T10:15:36 EET" name="setup" finished-at="2026-03-29T10:15:38 EET" duration-ms="2115" status="PASS">
+    <test started-at="2026-03-29T10:47:09 EET" name="Default test" finished-at="2026-03-29T10:47:13 EET" duration-ms="4058">
+      <class name="chapter_three.TestBasicMethodsNGTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_three.TestBasicMethodsNGTest@1165b38]" started-at="2026-03-29T10:47:09 EET" name="setupClass" finished-at="2026-03-29T10:47:10 EET" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.TestBasicMethodsNGTest@1165b38]" started-at="2026-03-29T10:47:10 EET" name="setup" finished-at="2026-03-29T10:47:12 EET" duration-ms="1739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:chapter_three.WebDriverManagerBuilderNGTest@71d44a3]" started-at="2026-03-29T10:15:38 EET" name="test" finished-at="2026-03-29T10:15:39 EET" duration-ms="891" status="PASS">
+        <test-method signature="test()[pri:0, instance:chapter_three.TestBasicMethodsNGTest@1165b38]" started-at="2026-03-29T10:47:12 EET" name="test" finished-at="2026-03-29T10:47:13 EET" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.WebDriverManagerBuilderNGTest@71d44a3]" started-at="2026-03-29T10:15:39 EET" name="tearDown" finished-at="2026-03-29T10:15:39 EET" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.TestBasicMethodsNGTest@1165b38]" started-at="2026-03-29T10:47:13 EET" name="tearDown" finished-at="2026-03-29T10:47:13 EET" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- chapter_three.WebDriverManagerBuilderNGTest -->
+      </class> <!-- chapter_three.TestBasicMethodsNGTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
