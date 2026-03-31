@@ -57,8 +57,9 @@ public class SessionIdNGTest {
 		driver.get(url);
 		
 		SessionId sessionId = ((RemoteWebDriver) driver).getSessionId();
-		assertThat(sessionId).isNotNull();
 		log.debug("the session is {}", sessionId.toString());
+		assertThat(sessionId).isNotNull();
+		
 	}
 
 }
