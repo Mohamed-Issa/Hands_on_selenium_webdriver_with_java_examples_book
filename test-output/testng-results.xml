@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-01T11:38:07 EET" name="Default suite" finished-at="2026-04-01T11:38:11 EET" duration-ms="4439">
+  <suite started-at="2026-04-04T08:43:38 EET" name="Default suite" finished-at="2026-04-04T08:43:46 EET" duration-ms="8803">
     <groups>
     </groups>
-    <test started-at="2026-04-01T11:38:07 EET" name="Default test" finished-at="2026-04-01T11:38:11 EET" duration-ms="4439">
-      <class name="chapter_three.location_strategies.TestByCssSelectorAdvanced">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_three.location_strategies.TestByCssSelectorAdvanced@1165b38]" started-at="2026-04-01T11:38:07 EET" name="setupClass" finished-at="2026-04-01T11:38:07 EET" duration-ms="743" status="PASS">
+    <test started-at="2026-04-04T08:43:38 EET" name="Default test" finished-at="2026-04-04T08:43:46 EET" duration-ms="8803">
+      <class name="chapter_three.CompoundLocators">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:38 EET" name="setupClass" finished-at="2026-04-04T08:43:38 EET" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.location_strategies.TestByCssSelectorAdvanced@1165b38]" started-at="2026-04-01T11:38:07 EET" name="setup" finished-at="2026-04-01T11:38:09 EET" duration-ms="1958" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:38 EET" name="setup" finished-at="2026-04-04T08:43:40 EET" duration-ms="1716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testByCssSelectorAdvanced()[pri:0, instance:chapter_three.location_strategies.TestByCssSelectorAdvanced@1165b38]" started-at="2026-04-01T11:38:09 EET" name="testByCssSelectorAdvanced" finished-at="2026-04-01T11:38:11 EET" duration-ms="1381" status="PASS">
+        <test-method signature="testByAll()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:40 EET" name="testByAll" finished-at="2026-04-04T08:43:41 EET" duration-ms="1236" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testByCssSelectorAdvanced -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.location_strategies.TestByCssSelectorAdvanced@1165b38]" started-at="2026-04-01T11:38:11 EET" name="tearDown" finished-at="2026-04-01T11:38:11 EET" duration-ms="268" status="PASS">
+        </test-method> <!-- testByAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:41 EET" name="tearDown" finished-at="2026-04-04T08:43:42 EET" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- chapter_three.location_strategies.TestByCssSelectorAdvanced -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:42 EET" name="setup" finished-at="2026-04-04T08:43:43 EET" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testByChained()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:43 EET" name="testByChained" finished-at="2026-04-04T08:43:44 EET" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByChained -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:44 EET" name="tearDown" finished-at="2026-04-04T08:43:44 EET" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:44 EET" name="setup" finished-at="2026-04-04T08:43:45 EET" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testByIdOrName()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:45 EET" name="testByIdOrName" finished-at="2026-04-04T08:43:46 EET" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByIdOrName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.CompoundLocators@1f2586d6]" started-at="2026-04-04T08:43:46 EET" name="tearDown" finished-at="2026-04-04T08:43:46 EET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- chapter_three.CompoundLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
