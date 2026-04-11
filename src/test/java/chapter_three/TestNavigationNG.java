@@ -5,14 +5,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -21,7 +22,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestSliderNG {
+public class TestNavigationNG {
 
 	static final Logger log = getLogger(lookup().lookupClass());
 
@@ -43,26 +44,24 @@ public class TestSliderNG {
 	}
 
 	@Test
-	public void testSlider() throws IOException {
+	public void testNavigation() {
 
-		String initUrl = "https://bonigarcia.dev/selenium-webdriver-java/web-form.html";
+		String initUrl = "https://bonigarcia.dev/selenium-webdriver-java/";
 		driver.get(initUrl);
 
-		WebElement slider = driver.findElement(By.name("my-range"));
-		String initValue  = slider.getAttribute("value");
-		
-		System.out.println("the initial value of the slider is "+ initValue);
-		
-		for (int i = 0 ; i< 5 ; i++) {
-			slider.sendKeys(Keys.ARROW_RIGHT);
-		}
-		
-		String endValue = slider.getAttribute("value");
-		System.out.println("the end value of the slider is "+ initValue);
-		
-		assertThat(endValue).isNotEqualTo(initValue);
-		
+		driver.findElement(By.xpath("//a[text()='Navigation']")).click();
+		driver.findElement(By.xpath("//a[text()='Next']")).click();
+		driver.findElement(By.xpath("//a[text()='3']")).click();
+
+		driver.findElement(By.xpath("//a[text()='2']")).click();
+		driver.findElement(By.xpath("//a[text()='Previous']")).click();
+
+		String bodyText = driver.findElement(By.tagName("body")).getText();
+
+		assertThat(bodyText).contains("Lorem ipsum");
 
 	}
+
+	
 
 }

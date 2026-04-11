@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_three.TestDatePickerNG">
+      <class name="chapter_three.TestNavigationNG">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testDatePicker"/>
+          <include name="tearDown"/>
+          <include name="testNavigationCheckBoxAndRadioButton"/>
           <include name="setupClass"/>
         </methods>
-      </class> <!-- chapter_three.TestDatePickerNG -->
+      </class> <!-- chapter_three.TestNavigationNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
