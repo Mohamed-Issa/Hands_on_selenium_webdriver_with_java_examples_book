@@ -5,9 +5,9 @@
     <classes>
       <class name="chapter_three.TestNavigationNG">
         <methods>
+          <include name="testCheckboxAndRadio"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testNavigationCheckBoxAndRadioButton"/>
           <include name="setupClass"/>
         </methods>
       </class> <!-- chapter_three.TestNavigationNG -->

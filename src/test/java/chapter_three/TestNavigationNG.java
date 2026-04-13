@@ -61,6 +61,20 @@ public class TestNavigationNG {
 		assertThat(bodyText).contains("Lorem ipsum");
 
 	}
+	
+//	 @Test
+//	    public void testCheckboxAndRadio() {
+//	        driver.get(
+//	                "https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+//
+//	        WebElement checkbox2 = driver.findElement(By.id("my-check-2"));
+//	        checkbox2.click();
+//	        assertThat(checkbox2.isSelected()).isTrue();
+//
+//	        WebElement radio2 = driver.findElement(By.id("my-radio-2"));
+//	        radio2.click();
+//	        assertThat(radio2.isSelected()).isTrue();
+//	    }
 
 	
 
