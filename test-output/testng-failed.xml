@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_three.TestNavigationNG">
+      <class name="chapter_three.TestMouseOverNG">
         <methods>
-          <include name="testCheckboxAndRadio"/>
           <include name="setup"/>
-          <include name="tearDown"/>
           <include name="setupClass"/>
+          <include name="tearDown"/>
+          <include name="testMouseOver"/>
         </methods>
-      </class> <!-- chapter_three.TestNavigationNG -->
+      </class> <!-- chapter_three.TestMouseOverNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
