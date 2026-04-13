@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-13T06:09:11 EET" name="Default suite" finished-at="2026-04-13T06:09:14 EET" duration-ms="2767">
+  <suite started-at="2026-04-13T07:02:08 EET" name="Default suite" finished-at="2026-04-13T07:02:11 EET" duration-ms="3301">
     <groups>
     </groups>
-    <test started-at="2026-04-13T06:09:11 EET" name="Default test" finished-at="2026-04-13T06:09:14 EET" duration-ms="2767">
-      <class name="chapter_three.TestMouseOverNG">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_three.TestMouseOverNG@3eb25e1a]" started-at="2026-04-13T06:09:11 EET" name="setupClass" finished-at="2026-04-13T06:09:12 EET" duration-ms="342" status="PASS">
+    <test started-at="2026-04-13T07:02:08 EET" name="Default test" finished-at="2026-04-13T07:02:11 EET" duration-ms="3301">
+      <class name="chapter_three.TestCopyAndPaste">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_three.TestCopyAndPaste@3fc2959f]" started-at="2026-04-13T07:02:08 EET" name="setupClass" finished-at="2026-04-13T07:02:09 EET" duration-ms="903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.TestMouseOverNG@3eb25e1a]" started-at="2026-04-13T06:09:12 EET" name="setup" finished-at="2026-04-13T06:09:13 EET" duration-ms="965" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_three.TestCopyAndPaste@3fc2959f]" started-at="2026-04-13T07:02:09 EET" name="setup" finished-at="2026-04-13T07:02:10 EET" duration-ms="933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testMouseOver()[pri:0, instance:chapter_three.TestMouseOverNG@3eb25e1a]" started-at="2026-04-13T06:09:13 EET" name="testMouseOver" finished-at="2026-04-13T06:09:14 EET" duration-ms="1268" status="PASS">
+        <test-method signature="testDragAndDrop()[pri:0, instance:chapter_three.TestCopyAndPaste@3fc2959f]" started-at="2026-04-13T07:02:10 EET" name="testDragAndDrop" finished-at="2026-04-13T07:02:11 EET" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMouseOver -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:chapter_three.TestMouseOverNG@3eb25e1a]" started-at="2026-04-13T06:09:14 EET" name="tearDown" finished-at="2026-04-13T06:09:14 EET" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- chapter_three.TestMouseOverNG -->
+        </test-method> <!-- testDragAndDrop -->
+      </class> <!-- chapter_three.TestCopyAndPaste -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
