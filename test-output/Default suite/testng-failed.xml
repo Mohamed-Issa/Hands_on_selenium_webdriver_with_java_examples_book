@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_three.TestMouseOverNG">
+      <class name="chapter_four.TestScrollBy">
         <methods>
-          <include name="setup"/>
           <include name="setupClass"/>
-          <include name="tearDown"/>
-          <include name="testMouseOver"/>
+          <include name="setup"/>
+          <include name="testScrollIntoView"/>
         </methods>
-      </class> <!-- chapter_three.TestMouseOverNG -->
+      </class> <!-- chapter_four.TestScrollBy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
