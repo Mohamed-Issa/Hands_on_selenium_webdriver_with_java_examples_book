@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-14T06:46:51 EET" name="Default suite" finished-at="2026-04-14T06:46:55 EET" duration-ms="4511">
+  <suite started-at="2026-04-15T05:45:54 EET" name="Default suite" finished-at="2026-04-15T05:45:58 EET" duration-ms="3988">
     <groups>
     </groups>
-    <test started-at="2026-04-14T06:46:51 EET" name="Default test" finished-at="2026-04-14T06:46:55 EET" duration-ms="4511">
-      <class name="chapter_four.TestScrollBy">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestScrollBy@139982de]" started-at="2026-04-14T06:46:51 EET" name="setupClass" finished-at="2026-04-14T06:46:52 EET" duration-ms="786" status="PASS">
+    <test started-at="2026-04-15T05:45:54 EET" name="Default test" finished-at="2026-04-15T05:45:58 EET" duration-ms="3988">
+      <class name="chapter_four.TestColorPicker">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestColorPicker@3fc2959f]" started-at="2026-04-15T05:45:54 EET" name="setupClass" finished-at="2026-04-15T05:45:55 EET" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestScrollBy@139982de]" started-at="2026-04-14T06:46:52 EET" name="setup" finished-at="2026-04-14T06:46:54 EET" duration-ms="1918" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestColorPicker@3fc2959f]" started-at="2026-04-15T05:45:55 EET" name="setup" finished-at="2026-04-15T05:45:57 EET" duration-ms="2090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInfiniteScroll()[pri:0, instance:chapter_four.TestScrollBy@139982de]" started-at="2026-04-14T06:46:54 EET" name="testInfiniteScroll" finished-at="2026-04-14T06:46:55 EET" duration-ms="1729" status="PASS">
+        <test-method signature="testColorPicker()[pri:0, instance:chapter_four.TestColorPicker@3fc2959f]" started-at="2026-04-15T05:45:57 EET" name="testColorPicker" finished-at="2026-04-15T05:45:58 EET" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInfiniteScroll -->
-      </class> <!-- chapter_four.TestScrollBy -->
+        </test-method> <!-- testColorPicker -->
+      </class> <!-- chapter_four.TestColorPicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_four.TestScrollBy">
+      <class name="chapter_four.TestColorPicker">
         <methods>
-          <include name="setupClass"/>
           <include name="setup"/>
-          <include name="testScrollIntoView"/>
+          <include name="setupClass"/>
+          <include name="testColorPicker"/>
         </methods>
-      </class> <!-- chapter_four.TestScrollBy -->
+      </class> <!-- chapter_four.TestColorPicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
