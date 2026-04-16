@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_four.TestColorPicker">
+      <class name="chapter_four.TestTimeouts">
         <methods>
-          <include name="setup"/>
+          <include name="testScriptTimeout"/>
           <include name="setupClass"/>
-          <include name="testColorPicker"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- chapter_four.TestColorPicker -->
+      </class> <!-- chapter_four.TestTimeouts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

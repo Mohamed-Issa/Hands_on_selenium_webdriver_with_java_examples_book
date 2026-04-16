@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-15T06:24:37 EET" name="Default suite" finished-at="2026-04-15T06:24:43 EET" duration-ms="5968">
+  <suite started-at="2026-04-16T06:12:54 EET" name="Default suite" finished-at="2026-04-16T06:13:01 EET" duration-ms="7647">
     <groups>
     </groups>
-    <test started-at="2026-04-15T06:24:37 EET" name="Default test" finished-at="2026-04-15T06:24:43 EET" duration-ms="5968">
-      <class name="chapter_four.TestAsyncScript">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestAsyncScript@3fc2959f]" started-at="2026-04-15T06:24:37 EET" name="setupClass" finished-at="2026-04-15T06:24:38 EET" duration-ms="1177" status="PASS">
+    <test started-at="2026-04-16T06:12:54 EET" name="Default test" finished-at="2026-04-16T06:13:01 EET" duration-ms="7647">
+      <class name="chapter_four.TestTimeouts">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestTimeouts@385c9627]" started-at="2026-04-16T06:12:54 EET" name="setupClass" finished-at="2026-04-16T06:12:55 EET" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestAsyncScript@3fc2959f]" started-at="2026-04-15T06:24:38 EET" name="setup" finished-at="2026-04-15T06:24:40 EET" duration-ms="1768" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestTimeouts@385c9627]" started-at="2026-04-16T06:12:55 EET" name="setup" finished-at="2026-04-16T06:12:56 EET" duration-ms="1772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPinnedScripts()[pri:0, instance:chapter_four.TestAsyncScript@3fc2959f]" started-at="2026-04-15T06:24:40 EET" name="testPinnedScripts" finished-at="2026-04-15T06:24:43 EET" duration-ms="2914" status="PASS">
+        <test-method signature="testPageLoadTimeout()[pri:0, instance:chapter_four.TestTimeouts@385c9627]" started-at="2026-04-16T06:12:56 EET" name="testPageLoadTimeout" finished-at="2026-04-16T06:12:57 EET" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPinnedScripts -->
-      </class> <!-- chapter_four.TestAsyncScript -->
+        </test-method> <!-- testPageLoadTimeout -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestTimeouts@385c9627]" started-at="2026-04-16T06:12:57 EET" name="setup" finished-at="2026-04-16T06:12:58 EET" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testScriptTimeout()[pri:0, instance:chapter_four.TestTimeouts@385c9627]" started-at="2026-04-16T06:12:58 EET" name="testScriptTimeout" finished-at="2026-04-16T06:13:01 EET" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScriptTimeout -->
+      </class> <!-- chapter_four.TestTimeouts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
