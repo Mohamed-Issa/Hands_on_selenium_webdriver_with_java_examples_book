@@ -5,7 +5,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -48,6 +47,22 @@ public class TestSelect {
 		select.selectByVisibleText(optionLabel);
 
 		assertThat(select.getFirstSelectedOption().getText()).isEqualTo(optionLabel);
+
+	}
+
+	@Test
+	public void testDataList() {
+		String initUrl = "https://bonigarcia.dev/selenium-webdriver-java/web-form.html";
+		driver.get(initUrl);
+
+		WebElement dataList = driver.findElement(By.name("my-datalist"));
+		dataList.click();
+		WebElement option = driver.findElement(By.xpath("//datalist/option[2]"));
+		String optionValue = option.getAttribute("value");
+
+		dataList.sendKeys(optionValue);
+
+		assertThat(optionValue).isEqualTo("New York");
 
 	}
 
