@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T06:26:49 EET" name="Default suite" finished-at="2026-04-17T06:26:51 EET" duration-ms="2325">
+  <suite started-at="2026-04-18T06:30:34 EET" name="Default suite" finished-at="2026-04-18T06:30:40 EET" duration-ms="6089">
     <groups>
     </groups>
-    <test started-at="2026-04-17T06:26:49 EET" name="Default test" finished-at="2026-04-17T06:26:51 EET" duration-ms="2325">
-      <class name="chapter_four.TestShadowDom">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestShadowDom@139982de]" started-at="2026-04-17T06:26:49 EET" name="setupClass" finished-at="2026-04-17T06:26:49 EET" duration-ms="345" status="PASS">
+    <test started-at="2026-04-18T06:30:34 EET" name="Default test" finished-at="2026-04-18T06:30:40 EET" duration-ms="6089">
+      <class name="chapter_four.TestSelect">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestSelect@3fc2959f]" started-at="2026-04-18T06:30:34 EET" name="setupClass" finished-at="2026-04-18T06:30:37 EET" duration-ms="2883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestShadowDom@139982de]" started-at="2026-04-17T06:26:49 EET" name="setup" finished-at="2026-04-17T06:26:50 EET" duration-ms="1018" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestSelect@3fc2959f]" started-at="2026-04-18T06:30:37 EET" name="setup" finished-at="2026-04-18T06:30:39 EET" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testShadowDom()[pri:0, instance:chapter_four.TestShadowDom@139982de]" started-at="2026-04-17T06:26:50 EET" name="testShadowDom" finished-at="2026-04-17T06:26:51 EET" duration-ms="911" status="PASS">
+        <test-method signature="testSelect()[pri:0, instance:chapter_four.TestSelect@3fc2959f]" started-at="2026-04-18T06:30:39 EET" name="testSelect" finished-at="2026-04-18T06:30:40 EET" duration-ms="1208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testShadowDom -->
-      </class> <!-- chapter_four.TestShadowDom -->
+        </test-method> <!-- testSelect -->
+      </class> <!-- chapter_four.TestSelect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
