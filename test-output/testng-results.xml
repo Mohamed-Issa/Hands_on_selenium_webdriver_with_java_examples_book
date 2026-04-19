@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-18T06:45:10 EET" name="Default suite" finished-at="2026-04-18T06:45:16 EET" duration-ms="5394">
+  <suite started-at="2026-04-19T06:18:55 EET" name="Default suite" finished-at="2026-04-19T06:19:01 EET" duration-ms="6312">
     <groups>
     </groups>
-    <test started-at="2026-04-18T06:45:10 EET" name="Default test" finished-at="2026-04-18T06:45:16 EET" duration-ms="5394">
-      <class name="chapter_four.TestSelect">
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestSelect@5aa9e4eb]" started-at="2026-04-18T06:45:10 EET" name="setupClass" finished-at="2026-04-18T06:45:11 EET" duration-ms="592" status="PASS">
+    <test started-at="2026-04-19T06:18:55 EET" name="Default test" finished-at="2026-04-19T06:19:01 EET" duration-ms="6312">
+      <class name="chapter_four.TestIframe">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:chapter_four.TestIframe@3fc2959f]" started-at="2026-04-19T06:18:55 EET" name="setupClass" finished-at="2026-04-19T06:18:57 EET" duration-ms="2330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestSelect@5aa9e4eb]" started-at="2026-04-18T06:45:11 EET" name="setup" finished-at="2026-04-18T06:45:13 EET" duration-ms="1621" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestIframe@3fc2959f]" started-at="2026-04-19T06:18:57 EET" name="setup" finished-at="2026-04-19T06:18:59 EET" duration-ms="2057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testDataList()[pri:0, instance:chapter_four.TestSelect@5aa9e4eb]" started-at="2026-04-18T06:45:13 EET" name="testDataList" finished-at="2026-04-18T06:45:14 EET" duration-ms="1112" status="PASS">
+        <test-method signature="testIFrames()[pri:0, instance:chapter_four.TestIframe@3fc2959f]" started-at="2026-04-19T06:18:59 EET" name="testIFrames" finished-at="2026-04-19T06:19:01 EET" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDataList -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:chapter_four.TestSelect@5aa9e4eb]" started-at="2026-04-18T06:45:14 EET" name="setup" finished-at="2026-04-18T06:45:15 EET" duration-ms="1025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testSelect()[pri:0, instance:chapter_four.TestSelect@5aa9e4eb]" started-at="2026-04-18T06:45:15 EET" name="testSelect" finished-at="2026-04-18T06:45:16 EET" duration-ms="944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSelect -->
-      </class> <!-- chapter_four.TestSelect -->
+        </test-method> <!-- testIFrames -->
+      </class> <!-- chapter_four.TestIframe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
