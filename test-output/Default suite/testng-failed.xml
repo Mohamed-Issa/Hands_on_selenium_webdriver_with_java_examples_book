@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chapter_four.TestDialogBoxes">
+      <class name="chapter_four.TestEventListenerNG">
         <methods>
-          <include name="testModal"/>
-          <include name="setupClass"/>
           <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="testEvenListener"/>
         </methods>
-      </class> <!-- chapter_four.TestDialogBoxes -->
+      </class> <!-- chapter_four.TestEventListenerNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
